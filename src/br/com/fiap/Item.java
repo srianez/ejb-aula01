@@ -4,8 +4,11 @@ import java.io.Serializable;
 
 public class Item implements Serializable {
 
-	private transient String nome;
-	//private String nome;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String nome;
 	private double preco;
 	
 	public String getNome() {
